@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
+
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>firezone</id>
+    <version>1.5.11</version>
+
+    <!-- Make it very clear this is not maintained by Firezone -->
+    <title>Firezone (Install) - Unofficial (Community)</title>
+
+    <authors>Firezone, Inc.</authors>
+    <owners>Equin Limited</owners>
+
+    <!-- Required for community feed -->
+    <projectUrl>https://www.firezone.dev</projectUrl>
+    <docsUrl>https://www.firezone.dev/kb</docsUrl>
+
+    <!-- Firezone legal terms -->
+    <licenseUrl>https://www.firezone.dev/terms</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+
+    <packageSourceUrl>https://github.com/equinlimited/chocolatey-firezone</packageSourceUrl>
+
+    <tags>firezone unofficial community vpn security network</tags>
+    <summary>Unofficial, community-maintained Chocolatey package for the Firezone desktop app (may lag official releases).</summary>
+    <description><![CDATA[
+## Unofficial / Community package (not maintained by Firezone)
+This Chocolatey package is **unofficial** and **community-provided**. It is **not** published or maintained by Firezone.
+It may **lag behind** Firezone's officially released desktop versions.
+
+## What this package does
+- Installs the Firezone desktop application for Windows.
+- Downloads the installer from Firezone's official download endpoint:
+  https://www.firezone.dev/dl/firezone-client-gui-windows/latest/x86_64
+
+## Support / expectations
+For Firezone product support and official release notes, please refer to Firezone's official channels.
+For issues with this Chocolatey package (install/uninstall scripts, packaging, version lag), please use the package issue tracker linked in this nuspec.
+]]></description>
+  </metadata>
+  <files>
+    <file src="tools\chocolateyInstall.ps1" target="tools" />
+    <file src="tools\chocolateyUninstall.ps1" target="tools" />
+  </files>
+</package>
