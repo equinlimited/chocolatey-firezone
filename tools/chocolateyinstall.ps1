@@ -2,7 +2,7 @@
 
 $packageName = $env:ChocolateyPackageName
 
-$url = 'https://www.firezone.dev/dl/firezone-client-gui-windows/latest/x86_64'
+$url = 'https://github.com/firezone/firezone/releases/download/gui-client-1.5.11/firezone-client-gui-windows_1.5.11_x86_64.msi'
 
 Write-Host "NOTE: This is an UNOFFICIAL, community-maintained Chocolatey package for Firezone."
 Write-Host "It is not maintained or endorsed by Firezone and may lag behind official releases."

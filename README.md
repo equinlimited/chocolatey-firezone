@@ -7,7 +7,7 @@ It may lag behind official releases.
 ## Installer source
 
 The installer is downloaded directly from Firezone:
-https://www.firezone.dev/dl/firezone-client-gui-windows/latest/x86_64
+https://github.com/firezone/firezone/releases
 
 ## Support
 

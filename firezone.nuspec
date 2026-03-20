@@ -33,8 +33,7 @@ It may **lag behind** Firezone's officially released desktop versions.
 
 ## What this package does
 - Installs the Firezone desktop application for Windows.
-- Downloads the installer from Firezone's official download endpoint:
-  https://www.firezone.dev/dl/firezone-client-gui-windows/latest/x86_64
+- Downloads the installer from Firezone: https://github.com/firezone/firezone/releases
 
 ## Support / expectations
 For Firezone product support and official release notes, please refer to Firezone's official channels.
