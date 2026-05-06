@@ -6,7 +6,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>firezone</id>
-    <version>1.5.11</version>
+    <version>1.5.12</version>
 
     <!-- Make it very clear this is not maintained by Firezone -->
     <title>Firezone (Install) - Unofficial (Community)</title>
@@ -16,6 +16,7 @@
 
     <!-- Required for community feed -->
     <projectUrl>https://www.firezone.dev</projectUrl>
+    <iconUrl>https://www.firezone.dev/apple-icon.png</iconUrl>
     <docsUrl>https://www.firezone.dev/kb</docsUrl>
 
     <!-- Firezone legal terms -->
